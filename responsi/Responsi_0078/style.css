@@ -1,0 +1,65 @@
+.header{
+	width: 900px;
+	height: 100px;
+	margin: 0 auto;
+}
+.logo img{
+	width: 70px;
+	height:65px;
+	font-family: sans-serif;
+	float: left;
+}
+}
+.header small{
+	font-size: 40%;
+	border-bottom:1px solid #660000;
+
+}
+.icon{
+	float: left;
+}
+.icon img{
+	height: 30px;
+}
+.icon p{
+	float: right;
+	margin: 0 10px auto;
+}
+.middle{
+	margin: center;
+}
+.menu{
+	text-align: center;
+	width: 900px;
+	height: 40px;
+	margin: 0 auto;
+	background: #000000;
+	border-top: 2px solid #8c8c8c;
+}
+.menu ul li{
+	display: inline;
+}
+.menu ul li a{
+	text-align: center;
+	color: #8c8c8c;
+	margin:0 20px;
+	font-family: arial;
+	text-decoration: none;
+}
+.menu ul li a:hover{
+	color:yellow;
+}
+.content{
+	width: 900px;
+	height: 400px;
+	margin: auto;
+	background: #998;
+}
+.subc{
+	width: 280px;
+	height: 300px;
+	float: left;
+	border-radius: 10px;
+	background: #fff;
+	margin:5px;
+}

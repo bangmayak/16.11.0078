@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+	body {
+		background-image: url(wood.jpg);
+		background-size: 100%;
+	}
+
+	div.relative{
+		position: relative;
+		left: 20px;
+		top: 20px;
+		width: 100%;
+		height: 100%;
+	}
+	div.absolute{
+		width: 504px;
+		height: 10px;
+		background-color: white;
+		position: absolute;
+		margin: 0px;
+		bottom: -195px;
+		opacity: 0.0;
+		transition: height 1s;
+	}
+	div.absolute:hover{
+		opacity: 0.5;
+		height: 315px;
+	}
+
+	img {
+		width: 50%;
+		height: 50%;
+		position: relative;
+		margin: -100px;
+		top: 100px;
+		left: 100px;
+
+	}
+	div.segitiga{
+		width: 0px;
+		height: 0px;
+		border-bottom: 70px solid white;
+		border-right: 80px solid transparent;
+		position: absolute;
+		top: 244px;
+
+	}
+	</style>
+</head>
+<body>
+	<div class="relative">
+		<img src="cappucino.jpg">
+		<div class="absolute">   minumlah kopi agar terbiasa merasakan pahitnya hidup</div>
+		<div class="segitiga">50K</div>
+
+	</div>
+</body>
+</html>
